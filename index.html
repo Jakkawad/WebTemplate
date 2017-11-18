@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world</title>
+    <!-- Bootstrap.min.css -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Jquery-3.1.1.slim.min.js -->
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <!-- Tether.min.js -->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>-->
+    <script src="js/tether.min.js"></script>
+    <!-- Bootstrap.min.js -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Styles.css -->
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <!-- Font-awesome.min.js -->
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Nav -->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--<a class="navbar-brand" href="#">Navbar</a>-->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./document.html">Document</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Nav -->
+
+<!-- Container -->
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-3">Example API</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-lg-12">
+            <h4>API</h4>
+            <div class="input-group">
+
+                <span class="input-group-addon" id="basic-addon1">catvomiteonyourbed.me/api/v1/</span>
+                <input type="text" class="form-control" placeholder="foodtruck" aria-describedby="basic-addon1">
+                <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button">Request!</button>
+                </span>
+            </div>
+            <h3>Result</h3>
+            <pre id="interactive_output" class="pre-scrollable">
+{
+	"name": "Luke Skywalker",
+	"height": "172",
+	"mass": "77",
+	"hair_color": "blond",
+	"skin_color": "fair",
+	"eye_color": "blue",
+	"birth_year": "19BBY",
+	"gender": "male",
+	"homeworld": "https://swapi.co/api/planets/1/",
+	"films": [
+		"https://swapi.co/api/films/2/",
+		"https://swapi.co/api/films/6/",
+		"https://swapi.co/api/films/3/",
+		"https://swapi.co/api/films/1/",
+		"https://swapi.co/api/films/7/"
+	],
+	"species": [
+		"https://swapi.co/api/species/1/"
+	],
+	"vehicles": [
+		"https://swapi.co/api/vehicles/14/",
+		"https://swapi.co/api/vehicles/30/"
+	],
+	"starships": [
+		"https://swapi.co/api/starships/12/",
+		"https://swapi.co/api/starships/22/"
+	],
+	"created": "2014-12-09T13:50:51.644000Z",
+	"edited": "2014-12-20T21:17:56.891000Z",
+	"url": "https://swapi.co/api/people/1/"
+}
+          </pre>
+            <!--<textarea class="span" rows="50" placeholder="" required></textarea>-->
+        </div>
+    </div>
+    <!--<div class="row marketing">-->
+        <!--<div class="col-lg-6">-->
+            <!--<h4>Subheading</h4>-->
+            <!--<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>-->
+
+            <!--<h4>Subheading</h4>-->
+            <!--<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>-->
+
+            <!--<h4>Subheading</h4>-->
+            <!--<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>-->
+        <!--</div>-->
+
+        <!--<div class="col-lg-6">-->
+            <!--<h4>Subheading</h4>-->
+            <!--<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>-->
+
+            <!--<h4>Subheading</h4>-->
+            <!--<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>-->
+
+            <!--<h4>Subheading</h4>-->
+            <!--<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; Catvomitonyourbed.me 2017</p>
+    </footer>
+    <!-- Footer -->
+
+</div>
+<!-- Container -->
+
+
+
+<!-- Modal -->
+
+<!-- Modal -->
+</body>
+<!--<script src="js/bootstrap.js"></script>-->
+<!--<script src="js/bootstrap.min.js"></script>-->
+<!--<script src="js/jquery-3.1.1.slim.js"></script>-->
+<!--<script src="js/jquery-3.1.1.slim.min.js"></script>-->
+</html>
